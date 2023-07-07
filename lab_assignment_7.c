@@ -46,6 +46,11 @@ int main()
     bubbleSort(num_array, swap_array, num_vals);
 
     for(i=0; i<num_vals; i++)
+        printf("%d ", num_array[i]);
+
+    printf("\n");
+
+    for(i=0; i<num_vals; i++)
         printf("Index %d was sorted after %d swaps.\n", i, swap_array[i]);
 
     return 0;
